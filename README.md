@@ -10,6 +10,13 @@ This project uses Maven for building. Common commands:
 
 From the project directory, run ``mvn -PautoInstallPackage clean install`` to build the bundle and content package and install to a CQ instance.
 
+Try it
+------
+
+Navigate to [http://localhost:4502/cf#/content/bruce/accordion-demo.html](http://localhost:4502/cf#/content/bruce/accordion-demo.html) to view the component in edit mode.
+
+Try [http://localhost:4502/content/bruce/accordion-demo.html?wcmmode=disabled](http://localhost:4502/content/bruce/accordion-demo.html?wcmmode=disabled) to see how it renders when WCMMode is disabled.
+
 Using with VLT
 --------------
 

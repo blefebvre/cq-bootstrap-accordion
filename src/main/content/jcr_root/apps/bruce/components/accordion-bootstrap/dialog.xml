@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Accordion"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <title
+            jcr:primaryType="nt:unstructured"
+            defaultValue="3"
+            fieldLabel="Number of sections"
+            name="./numItems"
+            xtype="textfield"/>
+        <pages
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Defaults to 'Section #&lt;num>'"
+            fieldLabel="Section titles"
+            name="./sectionTitles"
+            xtype="multifield">
+            <fieldConfig
+                jcr:primaryType="cq:Widget"
+                xtype="textfield"/>
+        </pages>
+    </items>
+</jcr:root>
